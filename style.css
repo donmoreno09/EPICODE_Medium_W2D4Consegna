@@ -1,0 +1,388 @@
+body {
+    margin: 0;
+    height: 100%;
+}
+
+#header {
+    height: 8vh;
+    width: 100%;
+    background-color:whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid grey;
+}
+
+#headericons{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.icons{
+    margin: 0 0.3em;
+    font-size: 1.7em;
+}
+
+#logo {
+    height: 100%;
+}
+
+#membership p{
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 500px;
+  }
+
+#main {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+}
+
+#sinistra {
+    height: 100%;
+    width: 90vh;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+#first {
+    border-bottom: 1px solid grey;
+}
+
+#first h3 {
+    display: inline-block;
+    margin: 15px;
+    padding: 0;
+}
+
+#first h3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.news {
+    display: flex;
+    margin-top: 50px;
+    height: auto;
+}
+
+.image {
+    width: 30%;
+}
+
+.image:hover {
+    cursor: pointer;
+}
+
+.details {
+    display: flex;
+    align-items: center;
+}
+
+.user {
+    font-size: 1.8em;
+}
+
+.paragraph {
+    margin-left: 15px;
+    font-size: 1.5em;
+    font-weight: 400;
+}
+
+.paragraph2 {
+    font-size: 1em;
+    color: grey;
+}
+
+span {
+    font-weight: lighter;
+    color: gray;
+}
+
+.innerInfos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.innerInfos p {
+    color: grey;
+    font-size: 0.9em;
+}
+
+.image img {
+    height : 100%;
+    width: 100%;
+}
+
+.informations {
+    width: 100%;
+}
+
+.informations h2:hover {
+    cursor: pointer;
+}
+
+.h2 {
+    margin: 0;
+}
+
+.informations p {
+    margin: 0;
+}
+
+.lowerInfos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.innerInfos {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 75%;
+}
+
+.lowerInfos p:hover {
+    cursor:pointer;
+    background-color: antiquewhite;
+    padding: 5px;
+    border-radius: 500px;
+
+}
+
+.icons {
+    display: flex;
+}
+
+.icon:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+    padding: 2px;
+    border-radius: 500px;
+}
+
+#destra {
+    height: auto;
+    width: 50vh;
+    border-left: 1px solid grey;
+    margin-left: 30px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#DX {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 65%;
+    text-align: center;
+    padding-bottom: 50px;
+    border-bottom: 1px solid grey;
+}
+
+
+
+#p1 p {
+    font-size: 20px;
+}
+
+#imgg {
+    display: flex;
+    align-items: center;
+    height: 2vh;
+    width: 100%;
+    justify-content: center;
+}
+
+.iconsDx {
+    height: 2vh;
+}
+
+#connect {
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    padding: 5px;
+    border-radius: 500px;
+}
+
+#connect p {
+    display: inline;
+}
+
+#connect:hover {
+    cursor: pointer;
+}
+
+#spann {
+    margin-top: 15px;
+}
+
+#DX2 {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#DX2 h3 {
+    margin-left: 35px;
+}
+#follow {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#follow p {
+    display: inline-block;
+    border: 1px solid whitesmoke;
+    padding: 5px;
+    border-radius: 500px;
+    background-color:whitesmoke;
+    margin: 10px;
+}
+
+#follow p:hover {
+    cursor:pointer;
+}
+
+#DX3 {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#DX3 h3 {
+    margin-left: 35px;
+}
+
+.whoToFollow {
+    display: flex;
+    align-items: center;
+    margin-left: 35px;
+}
+
+.userWTF {
+    font-size: 3em;
+}
+
+.userWTF:hover {
+    cursor: pointer;
+}
+
+.spans {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 45px;
+    margin-left: 15px;
+    width: 250px;
+}
+
+#Lessig {
+    height: 40px;
+    width: 40px;
+}
+
+#Lessig img{
+    height: 50px;
+    border-radius: 500px;
+}
+
+#David {
+    height: 40px;
+    width: 40px;
+}
+
+#David img{
+    height: 50px;
+    border-radius: 500px;
+}
+
+#Bonsu {
+    height: 40px;
+    width: 40px;
+}
+
+#Bonsu img{
+    height: 50px;
+    border-radius: 500px;
+}
+
+.name {
+    font-size: 1.5em;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.name:hover {
+    cursor: pointer;
+}
+
+.profession {
+    font-size: 0.8em;
+    padding: 5px;
+}
+
+.follow {
+    font-size: 1.2em;
+    color : black;
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 500px;
+    background-color:whitesmoke;
+}
+
+.follow:hover {
+    cursor:pointer;
+}
+
+#DX4 {
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 65px;
+}
+
+#s {
+    color: black;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#seeAll {
+    margin-top: 25px;
+}
+
+#seeAll a {
+    color: green;
+}
+
+#footers {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+#footers span {
+    display: inline-block;
+    color: gray;
+    padding: 15px;
+}
+
+#footers span:hover {
+    cursor: pointer;
+}
